@@ -1,0 +1,14 @@
+-- Building Basic Angular 4 App ---
+
+How an Angular app Starts?
+
+ - Components
+You build your entire application using components. 
+Components allow you to split up your logic/styling. 
+component is a class, a typescript class that angular instantiates.
+
+Decorators are typescript features. they have the @ sign in front.
+
+
+App Modules bundle components of our app into packages. 
+G
