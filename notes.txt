@@ -6,9 +6,23 @@ How an Angular app Starts?
 You build your entire application using components. 
 Components allow you to split up your logic/styling. 
 component is a class, a typescript class that angular instantiates.
+Each component needs to have a template!
+
 
 Decorators are typescript features. they have the @ sign in front.
 
 
 App Modules bundle components of our app into packages. 
-G
+
+** Plugin for editor**
+Google for 'Your_Editor + emmet' to learn how to integrate it the editor. 
+
+*** Databinding = Communication ***
+    Output Data
+String Interpolation {{ data }}
+Property Binding [property] = "data"
+
+    React to (User) Events
+Event Binding (event) = "expression"
+
+Combination of Both: Two-Way-Binding [(ngModel)]="data"
